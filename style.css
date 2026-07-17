@@ -1,0 +1,132 @@
+body{
+    background: #ffc800;
+    background: linear-gradient(270deg,rgba(255, 200, 0, 1) 0%, rgba(112, 255, 157, 1) 65%);
+}
+
+.main-text{
+    margin: auto;
+    font-family: Arial;
+    text-align: center;
+}
+
+.help{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(9, 250, 5);
+    border-radius: 30px;
+    border-color: rgb(15, 198, 2);
+    border: 3px solid rgb(15, 198, 2);
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 800px;
+}
+
+.racket_game{
+    width: 375px;
+    height: 375px;
+    border-radius: 30px;
+    margin-top: 75px;
+    margin-left: 90px;
+    background: #c7d100;
+    background: linear-gradient(270deg,rgba(199, 209, 0, 1) 0%, rgba(0, 179, 0, 1) 65%);
+    padding-left: 75px;
+    padding-top: 75px;
+}
+
+.download_racket_game{
+    width: 125px;
+    height: 40px;
+    background: green;
+    border-radius: 30px;
+    border-color: rgb(0, 104, 0);
+    border: 3px solid rgb(17, 255, 0);
+    margin: auto;
+    margin-left: 85px;
+}
+
+.racket_img{
+    margin-left: 45px;
+    border-radius: 30px;
+}
+
+.racket_game_text{
+    font-family: Arial;
+}
+
+.games{
+    display: flex;            /* Вмикає гнучку розмітку */
+    flex-direction: row;      /* Розташовує елементи в ряд */
+    align-items: flex-start;  /* Вирівнює всі картки по верхньому краю */
+    gap: 20px;                /* Задає відстань між картками */
+}
+
+.flappybird{
+    width: 375px;
+    height: 375px;
+    border-radius: 30px;
+    margin-top: 75px;
+    margin-left: 110px;
+    background: #c7d100;
+    background: linear-gradient(270deg,rgba(199, 209, 0, 1) 0%, rgba(0, 179, 0, 1) 65%);
+    padding-left: 95px;
+    padding-top: 75px;
+}
+
+.flappybird_img{
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+.download_flappybird{
+    width: 125px;
+    height: 40px;
+    background: green;
+    border-radius: 30px;
+    border-color: rgb(0, 104, 0);
+    border: 3px solid rgb(17, 255, 0);
+    margin: auto;
+    margin-left: 75px;
+}
+
+.flappybird_text{
+    margin-left: 50px;
+    font-family: Arial;
+}
+
+.first_game{
+    width: 375px;
+    height: 375px;
+    border-radius: 30px;
+    margin-top: 75px;
+    margin-left: 130px;
+    background: #c7d100;
+    background: linear-gradient(270deg,rgba(199, 209, 0, 1) 0%, rgba(0, 179, 0, 1) 65%);
+    padding-left: 95px;
+    padding-top: 75px;
+}
+
+.download_first_game{
+    width: 125px;
+    height: 40px;
+    background: green;
+    border-radius: 30px;
+    border-color: rgb(0, 104, 0);
+    border: 3px solid rgb(17, 255, 0);
+    margin: auto;
+    margin-left: 85px;
+}
+
+.first_game_text{
+    font-family: Arial;
+    margin-left: 90px;
+}
+
+.first_game_img{
+    border-radius: 30px;
+    margin-left: 50px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
